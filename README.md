@@ -66,17 +66,13 @@ laughed
 
 ### Trained Models for unimorph_inflect
 
-
-### Trained Models for unimorph_inflect
-
-We currently provide models trained on all Unimorph data (except 1000 examples used as a development set) for 10 high-resource languages.
-The accuracy on the development sets are as follows:
+We currently provide models trained on all Unimorph data (except 1000 examples used as a development set) for some high-resource languages, trained in a monolingual setting. The accuracy on the development sets are as follows:
 
 | Language | Supported PoS | Dev Accuracy |
 |----------|---------------|--------------|
 |  eng     | V             | 0.97         |
 |  ell     | V, N, ADJ     | 0.84         |
-|          |               |              |
+|  rus     | V, N, ADJ     | 0.94         |
 
 
 A simple call of the `inflect` function with your desired language should download the necessary models, but you can also download them from [here](http://www.cs.cmu.edu/~aanastas/software/inflection_models/latest/).
