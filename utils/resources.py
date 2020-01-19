@@ -16,7 +16,7 @@ DEFAULT_MODELS_URL = 'http://www.cs.cmu.edu/~aanastas/software/inflection_models
 DEFAULT_DOWNLOAD_VERSION = 'latest'
 
 # list of supported language names
-languages = ['ell', 'ell2', 'eng', 'rus', 'deu']
+languages = sorted(['ell', 'ell2', 'eng', 'rus', 'deu'])
 supported_tagset = {}
 supported_tagset['eng'] = ["V;3;SG;PRS", "V;NFIN", "V;PST", "V;V.PTCP;PRS", "V;V.PTCP;PST"]
 

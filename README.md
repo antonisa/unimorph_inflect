@@ -15,7 +15,7 @@ cd unimorph_inflect
 pip install -e .
 ```
 
-### Getting Started with the neural pipeline
+### Getting Started
 
 You can get started by simply following these steps in your Python interactive interpreter:
 
@@ -75,11 +75,9 @@ If you use our models in your research, please cite our EMNLP 2019 [paper](https
 
 This release is not the same as CMU's SIGMORPHON 2019 Shared Task system. The system is a cleaned up version of the shared task code and the models are trained on almost all Unimorph data for each language, whereas in the competition we used the designated datasets.
 
-
 ## Issues and Usage Q&A
 
-Please use the [GitHub Issue Tracker](https://github.com/antonisa/unimorph_inflection/issues) for bug reports, feature requests, and other questions.
-
+Please use the [GitHub Issue Tracker](https://github.com/antonisa/unimorph_inflect/issues) for bug reports, feature requests, and other questions.
 
 ## LICENSE
 
