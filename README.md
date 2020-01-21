@@ -39,7 +39,7 @@ We currently provide models trained on all Unimorph data (except 1000 examples u
 You can list the available languages/models with:
 ```
 >>> unimorph_inflect.supported_languages
-['deu', 'ell', 'eng', 'rus']
+['ady', 'ang', 'ast', 'bel', 'bul', 'cat', 'dan', ...]
 ```
 
 The accuracy on the development sets are as follows:
@@ -100,7 +100,7 @@ This release is not the same as CMU's SIGMORPHON 2019 Shared Task system. The sy
 
 ## Issues and Usage Q&A
 
-Please use the [GitHub Issue Tracker](https://github.com/antonisa/unimorph_inflect/issues) for bug reports, feature requests, and other questions.
+Please use the [GitHub Issue Tracker](https://github.com/antonisa/unimorph_inflect/issues) for bug reports, language/feature requests, and other questions.
 
 ## LICENSE
 
