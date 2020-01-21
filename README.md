@@ -26,14 +26,11 @@ You can get started by simply following these steps in your Python interactive i
 >>> from unimorph_inflect import inflect
 >>> result = inflect("laugh", "V;PST", language='eng')
 >>> print(result[0])
-```
-
-The last command should print the following (the result of return is a list of outputs, hence the "[0]") there
-```
 laughed
 ```
+Note: `inflect()` returns a list of outputs, hence the "[0]") there
 
-Note that you don't need to explicitly download each dataset (as shown in the second line above); the inflect() function will ask you about downloading the model for a language if it is not downloaded already.
+You don't really need to explicitly download each dataset (as shown in the second line above); the `inflect()` function will ask you about downloading the model for a language if it is not downloaded already.
 
 ### Trained Models for unimorph_inflect
 
