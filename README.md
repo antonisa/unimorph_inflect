@@ -46,7 +46,8 @@ The accuracy on the development sets are as follows:
 
 | Language      | ISO | Supported PoS | Dev Accuracy |
 |---------------|-----|---------------|--------------|
-| Adyghe        | ady | V, ADJ        | 90.0         |
+| Adyghe        | ady | N, ADJ        | 90.0         |
+| Ancient Greek | grc | N, ADJ        | 89.0         |
 | Armenian      | hye | V, N, ADJ     | 98.9         |
 | Albanian      | sqi | V, N,         | 69.0         |
 | Asturian      | ast | V, N, ADJ     | 99.0         |
@@ -63,6 +64,7 @@ The accuracy on the development sets are as follows:
 | Faroese       | fao | V, N, ADJ     | 95.0         |
 | Farsi         | fas | V             | 93.0         |
 | French        | fra | V             | 97.0         |
+| Galician      | gal | V,            | 100          |
 | German        | deu | V, N          | 100          |
 | Georgian      | kat | V, N, ADJ     | 100          |
 | Greek         | ell | V, N, ADJ     | 84.0         |
