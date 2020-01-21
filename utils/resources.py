@@ -12,7 +12,8 @@ from pathlib import Path
 # set home dir for default
 HOME_DIR = str(Path.home())
 DEFAULT_MODEL_DIR = os.path.join(HOME_DIR, 'unimorph_inflect_resources')
-DEFAULT_MODELS_URL = 'http://www.cs.cmu.edu/~aanastas/software/inflection_models'
+DEFAULT_MODELS_URL = "https://github.com/antonisa/unimorph_inflect/raw/master/models"
+#DEFAULT_MODELS_URL = 'http://www.cs.cmu.edu/~aanastas/software/inflection_models'
 DEFAULT_DOWNLOAD_VERSION = 'latest'
 
 # list of supported language names
@@ -52,11 +53,11 @@ def download_dynet_model(lang_name, resource_dir=None, should_unzip=True, confir
             download_dir = resource_dir
         if not os.path.exists(download_dir):
             os.makedirs(download_dir)
-        print('')
-        print('Downloading models for: '+lang_name)
+        #print('')
         model_zip_file_name = f'{lang_name}.zip'
         download_url = f'{DEFAULT_MODELS_URL}/{version}/{model_zip_file_name}'
         download_file_path = os.path.join(download_dir, model_zip_file_name)
+        print(f'Downloading models for: {lang_name} from {download_url}')
         print('Download location: '+download_file_path)
 
         # initiate download
