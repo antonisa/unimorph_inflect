@@ -16,7 +16,7 @@ DEFAULT_MODELS_URL = "https://github.com/antonisa/unimorph_inflect/raw/master/mo
 DEFAULT_DOWNLOAD_VERSION = 'latest'
 
 # list of supported language names
-languages = sorted(['ell', 'ell2', 'eng', 'rus', 'deu', 'cat', 'spa', 'hin', 'isl', 'hye', 'fra', 'ita', 'hbs', 'gle', 'bul', 'ady', 'ang', 'swe', 'sqi', 'ast', 'bel', 'est', 'osx', 'fas', 'ukr', 'urd', 'kat', 'nld', 'eus', 'lav', 'zul', 'que', 'dan', 'bak', 'pol', 'ara', 'heb', 'fao', 'gal', 'grc'])
+languages = sorted(['ell', 'ell2', 'eng', 'rus', 'deu', 'cat', 'spa', 'hin', 'isl', 'hye', 'fra', 'ita', 'hbs', 'gle', 'bul', 'ady', 'ang', 'swe', 'sqi', 'ast', 'bel', 'est', 'osx', 'fas', 'ukr', 'urd', 'kat', 'nld', 'eus', 'lav', 'zul', 'que', 'dan', 'bak', 'pol', 'ara', 'heb', 'fao', 'gal', 'grc', 'ces', 'lit'])
 supported_tagset = {}
 supported_tagset['eng'] = ["V;3;SG;PRS", "V;NFIN", "V;PST", "V;V.PTCP;PRS", "V;V.PTCP;PST"]
 
