@@ -49,11 +49,12 @@ The accuracy on the development sets are as follows:
 | Adyghe        | ady | V, ADJ        | 90.0         |
 | Armenian      | hye | V, N, ADJ     | 98.9         |
 | Albanian      | sqi | V, N,         | 69.0         |
+| Bashkir       | bak | N, ADJ        | 81.0         |
 | Basque        | eus | V             | 48.0         |
 | Belarusian    | bel | V, N, ADJ     | 91.0         |
 | Bulgarian     | bul | V, N, ADJ     | 99.0         |
 | Catalan       | cat | V             | 100          |
-| Danish        | nld | N, ADJ        | 82.0         |
+| Danish        | dan | N, ADJ        | 82.0         |
 | Dutch         | nld | N, ADJ        | 98.0         |
 | English       | eng | V             | 97.0         |
 | Estonian      | est | V, N          | 84.0         |
@@ -69,7 +70,8 @@ The accuracy on the development sets are as follows:
 | Latvian       | lav | V, N, ADJ     | 99.0         |
 | Old English   | ang | V, N, ADJ     | 84.0         |
 | Old Saxon     | osx | V, N, ADJ     | 93.0         |
-| Quechua       | que | V, N, ADJ     | .0         |
+| Polish        | pol | V, N, ADJ     | 95.0         |
+| Quechua       | que | V, N, ADJ     | 90.0         |
 | Russian       | rus | V, N, ADJ     | 94.0         |
 | Serbocroatian | hbs | V             | 92.7         |
 | Spanish       | spa | V             | 100          |
