@@ -60,11 +60,13 @@ The accuracy on the development sets are as follows:
 | Dutch         | nld | N, ADJ        | 98.0         |
 | English       | eng | V             | 97.0         |
 | Estonian      | est | V, N          | 84.0         |
+| Faroese       | fao | V, N, ADJ     | 95.0         |
 | Farsi         | fas | V             | 93.0         |
 | French        | fra | V             | 97.0         |
 | German        | deu | V, N          | 100          |
 | Georgian      | kat | V, N, ADJ     | 100          |
 | Greek         | ell | V, N, ADJ     | 84.0         |
+| Hebrew        | heb | V, N          | 90.0         |
 | Hindi         | hin | V             | 78.0         |
 | Irish         | gle | V             | 85.6         |
 | Icelandic     | isl | V, N          | 93.0         |
@@ -73,7 +75,7 @@ The accuracy on the development sets are as follows:
 | Old English   | ang | V, N, ADJ     | 84.0         |
 | Old Saxon     | osx | V, N, ADJ     | 93.0         |
 | Polish        | pol | V, N, ADJ     | 95.0         |
-| Quechua       | que | V, N, ADJ     | 90.0         |
+| Quechua       | que | V, N, ADJ     | 32.0         |
 | Russian       | rus | V, N, ADJ     | 94.0         |
 | Serbocroatian | hbs | V             | 92.7         |
 | Spanish       | spa | V             | 100          |
