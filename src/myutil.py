@@ -35,6 +35,7 @@ def read_data(filename):
             tags.append(re.split('\W+', l[2]))
     return inputs, outputs, tags
 
+
 def read_test_data(filename):
     with codecs.open(filename, 'r', 'utf-8') as inp:
         lines = inp.readlines()
@@ -46,6 +47,20 @@ def read_test_data(filename):
             inputs.append(list(l[0]))
             tags.append(re.split('\W+', l[1]))
     return inputs, tags
+
+def simple_read_data(filename):
+    with codecs.open(filename, 'r', 'utf-8') as inp:
+        lines = inp.readlines()
+    inputs = []
+    outputs = []
+    tags = []
+    for l in lines:
+        l = l.strip().split('\t')
+        if l:
+            inputs.append(l[0])
+            outputs.append(l[1])
+            tags.append(';'.join(re.split('\W+', l[2])))
+    return inputs, outputs, tags
 
 def read_bpe_data(filename):
     with codecs.open(filename, 'r', 'utf-8') as inp:
