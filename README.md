@@ -49,6 +49,8 @@ The accuracy on the development sets are as follows:
 | Adyghe        | ady | V, ADJ        | 90.0         |
 | Armenian      | hye | V, N, ADJ     | 98.9         |
 | Albanian      | sqi | V, N,         | 69.0         |
+| Asturian      | ast | V, N, ADJ     | 99.0         |
+| Arabic        | ara | V, N, ADJ     | 23.0         |
 | Bashkir       | bak | N, ADJ        | 81.0         |
 | Basque        | eus | V             | 48.0         |
 | Belarusian    | bel | V, N, ADJ     | 91.0         |
