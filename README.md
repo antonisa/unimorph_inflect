@@ -47,16 +47,42 @@ You can list the available languages/models with:
 
 The accuracy on the development sets are as follows:
 
-| Language | Supported PoS | Dev Accuracy |
-|----------|---------------|--------------|
-|  deu     | V, N          | 1.00         |
-|  ell     | V, N, ADJ     | 0.84         |
-|  eng     | V             | 0.97         |
-|  fra     | V             | 0.           |
-|  rus     | V, N, ADJ     | 0.94         |
+| Language      | ISO | Supported PoS | Dev Accuracy |
+|---------------|-----|---------------|--------------|
+| Adyghe        | ady | V, ADJ        | 90.0         |
+| Armenian      | hye | V, N, ADJ     | 98.9         |
+| Albanian      | sqi | V, N,         | 69.0         |
+| Basque        | eus | V             | 48.0         |
+| Belarusian    | bel | V, N, ADJ     | 91.0         |
+| Bulgarian     | bul | V, N, ADJ     | 99.0         |
+| Catalan       | cat | V             | 100          |
+| Danish        | nld | N, ADJ        | 82.0         |
+| Dutch         | nld | N, ADJ        | 98.0         |
+| English       | eng | V             | 97.0         |
+| Estonian      | est | V, N          | 84.0         |
+| Farsi         | fas | V             | 93.0         |
+| French        | fra | V             | 97.0         |
+| German        | deu | V, N          | 100          |
+| Georgian      | kat | V, N, ADJ     | 100          |
+| Greek         | ell | V, N, ADJ     | 84.0         |
+| Hindi         | hin | V             | 78.0         |
+| Irish         | gle | V             | 85.6         |
+| Icelandic     | isl | V, N          | 93.0         |
+| Italian       | ita | V             | 99.2         |
+| Latvian       | lav | V, N, ADJ     | 99.0         |
+| Old English   | ang | V, N, ADJ     | 84.0         |
+| Old Saxon     | osx | V, N, ADJ     | 93.0         |
+| Quechua       | que | V, N, ADJ     | .0         |
+| Russian       | rus | V, N, ADJ     | 94.0         |
+| Serbocroatian | hbs | V             | 92.7         |
+| Spanish       | spa | V             | 100          |
+| Swedish       | swe | V, N, ADJ     | 96.0         |
+| Ukranian      | ukr | V, N, ADJ     | 97.0         |
+| Urdu          | urd | V, N          | 71.0         |
+| Zulu          | zul | V, N, ADJ     | 87.0         |
 
 
-A simple call of the `inflect` function with your desired language should download the necessary models, but you can also download them from [here](http://www.cs.cmu.edu/~aanastas/software/inflection_models/latest/).
+A simple call of the `inflect` function with your desired language should download the necessary models, but you can also download them from [here](https://github.com/antonisa/unimorph_inflect/blob/master/models).
 
 ## References
 
