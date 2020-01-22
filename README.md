@@ -45,51 +45,60 @@ You can list the available languages/models with:
 The accuracy on the development sets are as follows:
 
 | Language      | ISO | Supported PoS | Dev Accuracy |
-|---------------|-----|---------------|--------------|
-| Adyghe        | ady | N, ADJ        | 90.0         |
-| Ancient Greek | grc | N, ADJ        | 89.0         |
-| Armenian      | hye | V, N, ADJ     | 98.9         |
-| Albanian      | sqi | V, N,         | 69.0         |
-| Asturian      | ast | V, N, ADJ     | 99.0         |
-| Arabic        | ara | V, N, ADJ     | 23.0         |
-| Bashkir       | bak | N, ADJ        | 81.0         |
-| Basque        | eus | V             | 48.0         |
-| Belarusian    | bel | V, N, ADJ     | 91.0         |
-| Bulgarian     | bul | V, N, ADJ     | 99.0         |
-| Catalan       | cat | V             | 100          |
-| Czech         | ces | V, N, ADJ     | 94.0         |
-| Danish        | dan | N, ADJ        | 82.0         |
-| Dutch         | nld | N, ADJ        | 98.0         |
-| English       | eng | V             | 97.0         |
-| Estonian      | est | V, N          | 84.0         |
-| Faroese       | fao | V, N, ADJ     | 95.0         |
-| Farsi         | fas | V             | 93.0         |
-| French        | fra | V             | 97.0         |
-| Galician      | gal | V,            | 100          |
-| German        | deu | V, N          | 100          |
-| Georgian      | kat | V, N, ADJ     | 100          |
-| Greek         | ell | V, N, ADJ     | 84.0         |
-| Hebrew        | heb | V, N          | 90.0         |
-| Hindi         | hin | V             | 78.0         |
-| Irish         | gle | V             | 85.6         |
-| Icelandic     | isl | V, N          | 93.0         |
-| Italian       | ita | V             | 99.2         |
-| Latvian       | lav | V, N, ADJ     | 99.0         |
-| Lithuanian    | lit | V, N, ADJ     | 96.0         |
-| Lower Sorbian | dsb | V, N, ADJ     | 94.0         |
-| Navajo        | nav | N, ADJ        | 90.0         |
-| Old English   | ang | V, N, ADJ     | 84.0         |
-| Old Saxon     | osx | V, N, ADJ     | 93.0         |
-| Polish        | pol | V, N, ADJ     | 95.0         |
-| Quechua       | que | V, N, ADJ     | 32.0         |
-| Russian       | rus | V, N, ADJ     | 94.0         |
-| Serbocroatian | hbs | V             | 92.7         |
-| Spanish       | spa | V             | 100          |
-| Swedish       | swe | V, N, ADJ     | 96.0         |
-| Ukranian      | ukr | V, N, ADJ     | 97.0         |
-| Urdu          | urd | V, N          | 71.0         |
-| Venetian      | vec | V             | 98.0         |
-| Zulu          | zul | V, N, ADJ     | 87.0         |
+|------------------|-----|---------------|--------------|
+| Adyghe           | ady | N, ADJ        | 90.0         |
+| Ancient Greek    | grc | N, ADJ        | 89.0         |
+| Armenian         | hye | V, N, ADJ     | 98.9         |
+| Albanian         | sqi | V, N,         | 69.0         |
+| Asturian         | ast | V, N, ADJ     | 99.0         |
+| Arabic           | ara | V, N, ADJ     | 23.0         |
+| Bashkir          | bak | N, ADJ        | 81.0         |
+| Basque           | eus | V             | 48.0         |
+| Belarusian       | bel | V, N, ADJ     | 91.0         |
+| Bulgarian        | bul | V, N, ADJ     | 99.0         |
+| Catalan          | cat | V             | 100          |
+| Czech            | ces | V, N, ADJ     | 94.0         |
+| Danish           | dan | N, ADJ        | 82.0         |
+| Dutch            | nld | N, ADJ        | 98.0         |
+| English          | eng | V             | 97.0         |
+| Estonian         | est | V, N          | 84.0         |
+| Faroese          | fao | V, N, ADJ     | 95.0         |
+| Farsi            | fas | V             | 93.0         |
+| French           | fra | V             | 97.0         |
+| Galician         | gal | V,            | 100          |
+| German           | deu | V, N          | 100          |
+| Georgian         | kat | V, N, ADJ     | 100          |
+| Greek            | ell | V, N, ADJ     | 84.0         |
+| Hebrew           | heb | V, N          | 90.0         |
+| Hindi            | hin | V             | 78.0         |
+| Hungarian        | hun | V, N          | 97.2         |
+| Irish            | gle | V             | 85.6         |
+| Icelandic        | isl | V, N          | 93.0         |
+| Italian          | ita | V             | 99.2         |
+| Latvian          | lav | V, N, ADJ     | 99.0         |
+| Lithuanian       | lit | V, N, ADJ     | 96.0         |
+| Lower Sorbian    | dsb | V, N, ADJ     | 94.0         |
+| Makedonian       | mkd | V, N, ADJ     | 100          |
+| Navajo           | nav | N, ADJ        | 90.0         |
+| North Sami       | sme | V, N, ADJ     | 95.0         |
+| Norwegian Bokmål | nob | V, N, ADJ     | 77.0         |
+| Old English      | ang | V, N, ADJ     | 84.0         |
+| Old Saxon        | osx | V, N, ADJ     | 93.0         |
+| Polish           | pol | V, N, ADJ     | 95.0         |
+| Portuguese       | por | V, N, ADJ     | 100          |
+| Quechua          | que | V, N, ADJ     | 32.0         |
+| Romanian         | ron | V, N, ADJ     | 83.0         |
+| Russian          | rus | V, N, ADJ     | 94.0         |
+| Sanskrit         | san | N, ADJ        | 79.0         |
+| Serbocroatian    | hbs | V, N, ADJ     | 92.7         |
+| Spanish          | spa | V             | 100          |
+| Swedish          | swe | V, N, ADJ     | 96.0         |
+| Turkish          | tur | V, N, ADJ     | 84.2         |
+| Ukranian         | ukr | V, N, ADJ     | 97.0         |
+| Urdu             | urd | V, N          | 71.0         |
+| Welsh            | cym | V             | 97.0         |
+| Venetian         | vec | V             | 98.0         |
+| Zulu             | zul | V, N, ADJ     | 87.0         |
 
 
 A simple call of the `inflect` function with your desired language should download the necessary models, but you can also download them from [here](https://github.com/antonisa/unimorph_inflect/blob/master/models).
