@@ -57,6 +57,7 @@ The accuracy on the development sets are as follows:
 | Belarusian    | bel | V, N, ADJ     | 91.0         |
 | Bulgarian     | bul | V, N, ADJ     | 99.0         |
 | Catalan       | cat | V             | 100          |
+| Czech         | ces | V, N, ADJ     | 94.0         |
 | Danish        | dan | N, ADJ        | 82.0         |
 | Dutch         | nld | N, ADJ        | 98.0         |
 | English       | eng | V             | 97.0         |
@@ -74,6 +75,9 @@ The accuracy on the development sets are as follows:
 | Icelandic     | isl | V, N          | 93.0         |
 | Italian       | ita | V             | 99.2         |
 | Latvian       | lav | V, N, ADJ     | 99.0         |
+| Lithuanian    | lit | V, N, ADJ     | 96.0         |
+| Lower Sorbian | dsb | V, N, ADJ     | 94.0         |
+| Navajo        | nav | N, ADJ        | 90.0         |
 | Old English   | ang | V, N, ADJ     | 84.0         |
 | Old Saxon     | osx | V, N, ADJ     | 93.0         |
 | Polish        | pol | V, N, ADJ     | 95.0         |
@@ -84,6 +88,7 @@ The accuracy on the development sets are as follows:
 | Swedish       | swe | V, N, ADJ     | 96.0         |
 | Ukranian      | ukr | V, N, ADJ     | 97.0         |
 | Urdu          | urd | V, N          | 71.0         |
+| Venetian      | vec | V             | 98.0         |
 | Zulu          | zul | V, N, ADJ     | 87.0         |
 
 
