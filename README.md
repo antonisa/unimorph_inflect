@@ -91,7 +91,9 @@ The accuracy on the development sets are as follows:
 | Russian          | rus | V, N, ADJ     | 94.0         |
 | Sanskrit         | san | N, ADJ        | 79.0         |
 | Serbocroatian    | hbs | V, N, ADJ     | 92.7         |
+| Slovenian        | slv | V, N, ADJ     | 97.0         |
 | Spanish          | spa | V             | 100          |
+| Swahili          | swc | V, N, ADJ     | 66.0         |
 | Swedish          | swe | V, N, ADJ     | 96.0         |
 | Turkish          | tur | V, N, ADJ     | 84.2         |
 | Ukranian         | ukr | V, N, ADJ     | 97.0         |
