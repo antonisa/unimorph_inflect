@@ -12,7 +12,8 @@ Alternatively, you can also install from source of this git repository, which wi
 ```bash
 git clone git@github.com:antonisa/unimorph_inflect.git
 cd unimorph_inflect
-pip install -e .
+python setup.py install
+#pip install -e .
 ```
 
 ### Getting Started
