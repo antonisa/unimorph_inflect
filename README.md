@@ -10,7 +10,7 @@ this should also help resolve all of the dependencies of unimorph_inflect, for i
 
 Alternatively, you can also install from source of this git repository, which will give you more flexibility in developing on top of unimorph_inflect and training your own models. For this option, run
 ```bash
-git clone git@github.com:antonisa/unimorph_inflect.git
+git clone https://github.com/antonisa/unimorph_inflect.git
 cd unimorph_inflect
 python setup.py install
 #pip install -e .
