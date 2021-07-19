@@ -2,13 +2,10 @@
 
 ## Setup
 
-Unimorph_inflect supports Python 3.6 or later. We strongly recommend that you install Unimorph_inflect from PyPI. If you already have [pip installed](https://pip.pypa.io/en/stable/installing/), simply run
-```bash
-pip install unimorph_inflect
-```
-this should also help resolve all of the dependencies of unimorph_inflect, for instance [DyNet](https://dynet.readthedocs.io/) 2.0.0 or above.
+Unimorph_inflect supports Python 3.7. We strongly recommend that you install Unimorph_inflect from source following the steps below.
+A PyPI release is forthcoming. 
 
-Alternatively, you can also install from source of this git repository, which will give you more flexibility in developing on top of unimorph_inflect and training your own models. For this option, run
+Install from source from this git repository will give you more flexibility in developing on top of unimorph_inflect and training your own models. For this option, run
 ```bash
 git clone https://github.com/antonisa/unimorph_inflect.git
 cd unimorph_inflect
