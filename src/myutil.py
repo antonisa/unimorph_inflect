@@ -81,7 +81,7 @@ def write_vocab(l,filename):
         outp.write('\t'.join(l))
 
 def read_vocab(filename):
-    with open(filename) as inp:
+    with open(filename, encoding='utf-8') as inp:
         lines = inp.readlines()
     if lines[0][-1] == '\n':
         return lines[0][:-1].split('\t')
